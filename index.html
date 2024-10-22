@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shome - Shoes eCommerce Website Template"/>
+    <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
+    <meta name="author" content="codecarnival"/>
+
+    <title>Octopus - Nova Petrópolis</title>
+
+    <!--== Favicon ==-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--== Google Fonts ==-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet"> 
+
+    <!--== Bootstrap CSS ==-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!--== Font Awesome Min Icon CSS ==-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <!--== Pe7 Stroke Icon CSS ==-->
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <!--== Swiper CSS ==-->
+    <link href="assets/css/swiper.min.css" rel="stylesheet" />
+    <!--== Fancybox Min CSS ==-->
+    <link href="assets/css/fancybox.min.css" rel="stylesheet" />
+    <!--== Aos Min CSS ==-->
+    <link href="assets/css/aos.min.css" rel="stylesheet" />
+
+    <!--== Main Style CSS ==-->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<!--wrapper start-->
+<div class="wrapper">
+
+  <!--== Start Header Wrapper ==-->
+  <header class="main-header-wrapper position-relative">
+    <div class="header-top">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-top-align">
+              <div class="header-top-align-start">
+                <div class="desc">
+                  <p>Devoluções e frete grátis em todo o país</p>
+                </div>
+              </div>
+              <div class="header-top-align-end">
+                <div class="header-info-items">
+                  <div class="info-items">
+                    <ul>
+                      <li class="number"><i class="fa fa-phone"></i><a href="#">+00 123 456 789</a></li>
+                      <li class="email"><i class="fa fa-envelope"></i><a href="#">octopus@gmail.com</a></li>
+                      <li class="account"><i class="fa fa-user"></i><a href="#">Conta</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="container pt--0 pb--0">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="header-middle-align">
+              <div class="header-middle-align-start">
+                <div class="header-logo-area">
+                  <a href="index.html">
+                    <img class="logo-main" src="assets/img/LOGO-OCTOPUS.webp" width="150" height="50" alt="Logo" />
+                    <img class="logo-light" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="header-middle-align-center">
+                <div class="header-search-area">
+                  <form class="header-searchbox">
+                    <input type="search" class="form-control" placeholder="Buscar">
+                    <button class="btn-submit" type="submit"><i class="pe-7s-search"></i></button>
+                  </form>
+                </div>
+              </div>
+              <div class="header-middle-align-end">
+                <div class="header-action-area">
+                  <div class="shopping-search">
+                    <button class="shopping-search-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><i class="pe-7s-search icon"></i></button>
+                  </div>
+                  <div class="shopping-wishlist">
+                    <a class="shopping-wishlist-btn" href="#">
+                      <i class="pe-7s-like icon"></i>
+                    </a>
+                  </div>
+                  <div class="shopping-cart">
+                    <button class="shopping-cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="offcanvasRightLabel">
+                      <i class="pe-7s-shopbag icon"></i>
+                      <sup class="shop-count">02</sup>
+                    </button>
+                  </div>
+                  <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                    <i class="pe-7s-menu"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-area header-default">
+      <div class="container">
+        <div class="row no-gutter align-items-center position-relative">
+          <div class="col-12">
+            <div class="header-align">
+              <div class="header-navigation-area position-relative">
+                <ul class="main-menu nav">
+                  <li><a href="#/"><span>Home</span></a>
+                  </li>
+                  <li><a href="#"><span>Sobre</span></a></li>
+                  <li class="has-submenu position-static"><a href="#/"><span>Loja</span></a>
+                    <ul class="submenu-nav submenu-nav-mega column-3">
+                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Produtos</span></a>
+                        <ul>
+                          <li><a href="#"><span>Sneakers</span></a></li>
+                          <li><a href="#"><span>Tenis Casual</span></a></li>
+                          <li><a href="#"><span>Jaquetas de Inverno</span></a></li>
+                          <li><a href="#"><span>Conjuntos</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Outras Páginas</span></a>
+                        <ul>
+                          <li><a href="#"><span>Carrinho</span></a></li>
+                          <li><a href="#"><span>Pagamento</span></a></li>
+                          <li><a href="#"><span>Favoritos</span></a></li>
+                          <li><a href="#"><span>Compare</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><span>Contato</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--== End Header Wrapper ==-->
+  
+  <main class="main-content">
+    <!--== Start Hero Area Wrapper ==-->
+    <section class="home-slider-area">
+      <div class="swiper-container home-slider-container default-slider-container">
+        <div class="swiper-wrapper home-slider-wrapper slider-default">
+          <div class="swiper-slide">
+            <div class="slider-content-area" data-bg-img="assets/img/shape/1.webp">
+              <div class="container">
+                <div class="slider-container">
+                  <div class="row justify-content-between align-items-center">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="slider-content">
+                        <div class="content">
+                          <div class="title-box">
+                            <h2 class="title">Promoção Sneakers</h2>
+                          </div>
+                          <div class="desc-box">
+                            <p class="desc">Até 30% de desconto em todos os tênis e produtos</p>
+                          </div>
+                          <div class="btn-box">
+                            <a class="btn-slider" href="#">Compre Agora!</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="slider-thumb">
+                        <div class="thumb scene">
+                          <span class="scene-layer" data-depth=".3"><img src="assets/img/slider/01.png" width="481" height="509" alt="Image-HasTech"></span>
+                        </div>
+                        <div class="shape-group mousemove">
+                          <div class="shape-group-one mousemove-layer" data-speed=".8" data-bg-img="assets/img/shape/2.webp"></div>
+                          <div class="shape-group-two scene"><span class="scene-layer" data-depth=".6"><img src="assets/img/shape/3.webp" width="471" height="462" alt="Image-HasTech"></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slider-text-shape">NEW 2024</h2>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-content-area" data-bg-img="assets/img/shape/1.webp">
+              <div class="container">
+                <div class="slider-container">
+                  <div class="row justify-content-between align-items-center">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="slider-content">
+                        <div class="content">
+                          <div class="title-box">
+                            <h2 class="title">Diversos Tênis Exclusivos</h2>
+                          </div>
+                          <div class="desc-box">
+                            <p class="desc">Até 30% de desconto em todos os tênis e produtos</p>
+                          </div>
+                          <div class="btn-box">
+                            <a class="btn-slider" href="#">Compre Agora!</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <div class="slider-thumb">
+                        <div class="thumb scene">
+                          <span class="scene-layer" data-depth=".3"><img src="assets/img/slider/03.png" width="548" height="649" alt="Image-HasTech"></span>
+                        </div>
+                        <div class="shape-group mousemove">
+                          <div class="shape-group-one mousemove-layer" data-speed=".8" data-bg-img="assets/img/shape/2.webp"></div>
+                          <div class="shape-group-two scene"><span class="scene-layer" data-depth=".6"><img src="assets/img/shape/3.webp" width="471" height="462" alt="Image-HasTech"></span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slider-text-shape">NEW 2024</h2>
+            </div>
+          </div>
+        </div>
+
+        <!--== Add Swiper Arrows ==-->
+        <div class="swiper-btn-wrap">
+          <div class="swiper-btn-prev">
+            <i class="pe-7s-angle-left"></i>
+          </div>
+          <div class="swiper-btn-next">
+            <i class="pe-7s-angle-right"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Hero Area Wrapper ==-->
+
+    <!--== Start Product Collection Area Wrapper ==-->
+    <section class="product-area product-collection-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <!--== Start Product Collection Item ==-->
+            <div class="product-collection">
+              <div class="inner-content">
+                <div class="product-collection-content">
+                  <div class="content">
+                    <h3 class="title"><a href="#">Jaquetas de Inverno</a></h3>
+                    <h4 class="price">A Partir de R$95.00</h4>
+                  </div>
+                </div>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/1.webp"></div>
+                <a class="banner-link-overlay" href="#"></a>
+              </div>
+            </div>
+            <!--== End Product Collection Item ==-->
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!--== Start Product Collection Item ==-->
+            <div class="product-collection">
+              <div class="inner-content">
+                <div class="product-collection-content">
+                  <div class="content">
+                    <h3 class="title"><a href="#">Tênis mais Recentes</a></h3>
+                    <h4 class="price">A Partir de R$90.00</h4>
+                  </div>
+                </div>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/2.webp"></div>
+                <a class="banner-link-overlay" href="#"></a>
+              </div>
+            </div>
+            <!--== End Product Collection Item ==-->
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <!--== Start Product Collection Item ==-->
+            <div class="product-collection">
+              <div class="inner-content">
+                <div class="product-collection-content">
+                  <div class="content">
+                    <h3 class="title"><a href="#">Conjuntos</a></h3>
+                    <h4 class="price">A Partir de R$199.00</h4>
+                  </div>
+                </div>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/3.webp"></div>
+                <a class="banner-link-overlay" href="#"></a>
+              </div>
+            </div>
+            <!--== End Product Collection Item ==-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Product Collection Area Wrapper ==-->
+
+    <!--== Start Product Area Wrapper ==-->
+    <section class="product-area product-default-area">
+      <div class="container pt--0">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title text-center">
+              <h3 class="title">Tênis / Sneakers</h3>
+              <div class="desc">
+                <p>O modelo certo você encontra aqui!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/1.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-flag">
+                    <ul>
+                      <li class="discount">-10%</li>
+                    </ul>
+                  </div>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">LOUIS VUITTON SK8 PRETO e BRANCO</a></h4>
+                  <div class="prices">
+                    <span class="price-old">R$100</span>
+                    <span class="sep">-</span>
+                    <span class="price">R$240.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/2.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">LOUIS VUITTON TRAINER ROXO</a></h4>
+                  <div class="prices">
+                    <span class="price">R$140.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/3.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-flag">
+                    <ul>
+                      <li class="discount">-10%</li>
+                    </ul>
+                  </div>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">Prada Dal Off White Ouro</a></h4>
+                  <div class="prices">
+                    <span class="price-old">R$60</span>
+                    <span class="sep">-</span>
+                    <span class="price">R$260.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/4.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">TÊNIS ADIDAS FÓRUM LOW PRETO</a></h4>
+                  <div class="prices">
+                    <span class="price">R$880.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/5.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">TÊNIS AIR FORCE 1 SHADOW LILÁS e VERDE</a></h4>
+                  <div class="prices">
+                    <span class="price">R$500.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/6.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-flag">
+                    <ul>
+                      <li class="discount">-10%</li>
+                    </ul>
+                  </div>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Mas</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">TÊNIS CAMPUS BAD BANNY ROXO</a></h4>
+                  <div class="prices">
+                    <span class="price-old">R$300</span>
+                    <span class="sep">-</span>
+                    <span class="price">R$333.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/7.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">Tênis Nike SB Chron 2 Canvas Unissex</a></h4>
+                  <div class="prices">
+                    <span class="price">R$133.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <!--== Start Product Item ==-->
+            <div class="product-item">
+              <div class="inner-content">
+                <div class="product-thumb">
+                  <a href="#">
+                    <img src="assets/img/shop/8.webp" width="270" height="274" alt="Image-HasTech">
+                  </a>
+                  <div class="product-flag">
+                    <ul>
+                      <li class="discount">-10%</li>
+                    </ul>
+                  </div>
+                  <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                  <a class="banner-link-overlay" href="#"></a>
+                </div>
+                <div class="product-info">
+                  <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                      <li class="sep">/</li>
+                      <li><a href="#">Fem</a></li>
+                    </ul>
+                  </div>
+                  <h4 class="title"><a href="#">TÊNIS VANS ULTRARANGE EXO BLACK e WHITE</a></h4>
+                  <div class="prices">
+                    <span class="price-old">R$300</span>
+                    <span class="sep">-</span>
+                    <span class="price">R$420.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End prPduct Item ==-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Product Area Wrapper ==-->
+
+    <!--== Start Divider Area Wrapper ==-->
+    <section class="bg-color-f2 position-relative z-index-1">
+      <div class="container pt--0 pb--0">
+        <div class="row divider-wrap divider-style1">
+          <div class="col-lg-6">
+            <div class="divider-content" data-title="NEW">
+              <h4 class="sub-title">Economize 50%</h4>
+              <h2 class="title">Toda Loja Online</h2>
+              <p class="desc">Oferta Disponível Para Todos os Tênis</p>
+              <a class="btn-theme" href="#">Compre agora!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-layer-wrap">
+        <div class="bg-layer-style z-index--1 parallax" data-speed="1.05" data-bg-img="assets/img/photos/bg1.webp"></div>
+      </div>
+    </section>
+    <!--== End Divider Area Wrapper ==-->
+
+    <!--== Start Product Area Wrapper ==-->
+    <section class="product-area product-best-seller-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title text-center">
+              <h3 class="title">Mais vendidos</h3>
+              <div class="desc">
+                <p>Os favoritos da galera</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="product-slider-wrap">
+              <div class="swiper-container product-slider-col4-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="#">
+                            <img src="assets/img/shop/1.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-flag">
+                            <ul>
+                              <li class="discount">-10%</li>
+                            </ul>
+                          </div>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="#"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="#">Fem</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="#">Modern Smart Shoes</a></h4>
+                          <div class="prices">
+                            <span class="price-old">R$200</span>
+                            <span class="sep">-</span>
+                            <span class="price">R$240.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="#">
+                            <img src="assets/img/shop/7.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="#"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="#">Fem</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="#">Quickiin Mens shoes</a></h4>
+                          <div class="prices">
+                            <span class="price">R$440.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="#">
+                            <img src="assets/img/shop/3.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-flag">
+                            <ul>
+                              <li class="discount">-10%</li>
+                            </ul>
+                          </div>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="#"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="#">Fem</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="#">Rexpo Womens shoes</a></h4>
+                          <div class="prices">
+                            <span class="price-old">R$130</span>
+                            <span class="sep">-</span>
+                            <span class="price">R$333.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="#">
+                            <img src="assets/img/shop/4.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="#"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="#">Fem</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="#">Leather Mens Slipper</a></h4>
+                          <div class="prices">
+                            <span class="price">R$540.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="#">
+                            <img src="assets/img/shop/5.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="#"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="#">Fem</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="#">Primitive Mens shoes</a></h4>
+                          <div class="prices">
+                            <span class="price-old">R$40</span>
+                            <span class="sep">-</span>
+                            <span class="price">R$280.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="#">
+                            <img src="assets/img/shop/6.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-flag">
+                            <ul>
+                              <li class="discount">-10%</li>
+                            </ul>
+                          </div>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="#"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="#"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="#"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="#">Masc</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="#">Fem</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="#">Simple Fabric Shoe</a></h4>
+                          <div class="prices">
+                            <span class="price-old">R$400</span>
+                            <span class="sep">-</span>
+                            <span class="price">R$580.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                </div>
+              </div>
+              <!--== Add Swiper Arrows ==-->
+              <div class="product-swiper-btn-wrap">
+                <div class="product-swiper-btn-prev">
+                  <i class="fa fa-arrow-left"></i>
+                </div>
+                <div class="product-swiper-btn-next">
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Product Area Wrapper ==-->
+
+    <!--== Start Divider Area Wrapper ==-->
+    <section>
+      <div class="container">
+        <div class="row flex-md-row-reverse justify-content-between divider-wrap divider-style2">
+          <div class="col-lg-6">
+            <div class="divider-thumb-content">
+              <div class="thumb">
+                <a href="#">
+                  <img src="assets/img/shop/banner/1.webp" width="570" height="350" alt="Image-HasTech">
+                </a>
+              </div>
+              <div class="content">
+                <h2 class="title">Tênis Sports</h2>
+                <p class="desc">Até 30% de desconto em todos os sapatos e produtos</p>
+                <a class="btn-theme" href="#">Compre agora!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="divider-thumb-content">
+              <div class="thumb">
+                <a href="#">
+                  <img src="assets/img/shop/banner/2.webp" width="570" height="700" alt="Image-HasTech">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--== End Divider Area Wrapper ==-->
+
+  </main>
+
+  <!--== Start Footer Area Wrapper ==-->
+  <footer class="footer-area">
+    <!--== Start Footer Main ==-->
+    <div class="footer-main">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <div class="widget-item">
+              <div class="about-widget-wrap">
+                <div class="widget-logo-area">
+                  <a href="index.html">
+                    <img class="logo-main" src="assets/img/LOGO-OCTOPUS.webp" width="151" height="54" alt="Logo" />
+                  </a>
+                </div>
+                <p class="desc">Apaixonado por tênis e motivado pelo desejo de compartilhar essa paixão.</p>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                  <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+                  <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i class="fa fa-whatsapp"></i></a>
+                  <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+            <!--== End widget Item ==-->
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <!-- <div class="widget-item widget-services-item">
+              <h4 class="widget-title">Serviços</h4>
+              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-1">Serviços</h4>
+              <div id="widgetId-1" class="collapse widget-collapse-body">
+                <div class="collapse-body">
+                  <div class="widget-menu-wrap">
+                    <ul class="nav-menu">
+                      <li><a href="contact.html">Home monitoring</a></li>
+                      <li><a href="contact.html">Air Filters</a></li>
+                      <li><a href="contact.html">Professional installation</a></li>
+                      <li><a href="contact.html">Smart Buildings</a></li>
+                      <li><a href="contact.html">For contractors</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!--== End widget Item ==-->
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <div class="widget-item widget-account-item">
+              <h4 class="widget-title">Minha conta</h4>
+              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-2">Minha conta</h4>
+              <div id="widgetId-2" class="collapse widget-collapse-body">
+                <div class="collapse-body">
+                  <div class="widget-menu-wrap">
+                    <ul class="nav-menu">
+                      <li><a href="#">Minha conta</a></li>
+                      <li><a href="contact.html">Contato</a></li>
+                      <li><a href="#">Carrinho</a></li>
+                      <li><a href="#">Loja</a></li>
+                      <li><a href="#">Login</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End widget Item ==-->
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <!--== Start widget Item ==-->
+            <div class="widget-item">
+              <h4 class="widget-title">Informações de Contato</h4>
+              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-3">Contato</h4>
+              <div id="widgetId-3" class="collapse widget-collapse-body">
+                <div class="collapse-body">
+                  <div class="widget-contact-wrap">
+                    <ul>
+                      <li><span>Endereço:</span> Av. 15 de Novembro, 1883, sala 15 - Centro, Nova Petrópolis/RS, 95150-000</li>
+                      <li><span>Telefone:</span> <a href="tel://0123456789">0123456789</a></li>
+                      <li><span>Email:</span> <a href="mailto://demo@example.com">octopus@gmail.com</a></li>
+                      <li><a target="_blank" href="https://www.hasthemes.com">www.octopus.com</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--== End widget Item ==-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Footer Main ==-->
+
+    <!--== Start Footer Bottom ==-->
+    <div class="footer-bottom">
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-md-7 col-lg-6">
+            <p class="copyright">© 2024 Oc. Feito com <i class="fa fa-heart"></i> por <a target="_blank" href="#">ZC Digital.</a></p>
+          </div>
+          <div class="col-md-5 col-lg-6">
+            <div class="payment">
+              <a href="#"><img src="assets/img/photos/payment-card.webp" width="192" height="21" alt="Payment Logo"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--== End Footer Bottom ==-->
+  </footer>
+  <!--== End Footer Area Wrapper ==-->
+
+  <!--== Scroll Top Button ==-->
+  <div id="scroll-to-top" class="scroll-to-top"><span class="fa fa-angle-up"></span></div>
+
+  <!--== Start Quick View Menu ==-->
+  <aside class="product-quick-view-modal">
+    <div class="product-quick-view-inner">
+      <div class="product-quick-view-content">
+        <button type="button" class="btn-close">
+          <span class="close-icon"><i class="fa fa-close"></i></span>
+        </button>
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="thumb">
+              <img src="assets/img/shop/product-single/1.webp" width="570" height="541" alt="Alan-Shop">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="content">
+              <h4 class="title">Space X Bag For Office</h4>
+              <div class="prices">
+                <del class="price-old">R$85.00</del>
+                <span class="price">R$70.00</span>
+              </div>
+              <p>Descrição do produto....</p>
+              <div class="quick-view-select">
+                <div class="quick-view-select-item">
+                  <label for="forSize" class="form-label">Tamanho:</label>
+                  <select class="form-select" id="forSize" required>
+                    <option selected value="">39</option>
+                    <option>40</option>
+                    <option>41</option>
+                    <option>42</option>
+                  </select>
+                </div>
+                <div class="quick-view-select-item">
+                  <label for="forColor" class="form-label">Cor:</label>
+                  <select class="form-select" id="forColor" required>
+                    <option selected value="">vermelho</option>
+                    <option>verde</option>
+                    <option>azul</option>
+                    <option>amarelo</option>
+                    <option>branco</option>
+                  </select>
+                </div>
+              </div>
+              <div class="action-top">
+                <div class="pro-qty">
+                  <input type="text" id="quantity20" title="Quantity" value="1" />
+                </div>
+                <button class="btn btn-black">Adicionar ao carrinho</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="canvas-overlay"></div>
+  </aside>
+  <!--== End Quick View Menu ==-->
+
+  <!--== Start Aside Cart Menu ==-->
+  <div class="aside-cart-wrapper offcanvas offcanvas-end" tabindex="-1" id="AsideOffcanvasCart" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h1 id="offcanvasRightLabel"></h1>
+      <button class="btn-aside-cart-close" data-bs-dismiss="offcanvas" aria-label="Close">Carrinho <i class="fa fa-chevron-right"></i></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="aside-cart-product-list">
+        <li class="product-list-item">
+          <a href="#/" class="remove">×</a>
+          <a href="#">
+            <img src="assets/img/shop/product-mini/1.webp" width="90" height="110" alt="Image-HasTech">
+            <span class="product-title">Leather Mens Slipper</span>
+          </a>
+          <span class="product-price">1 × R$69.99</span>
+        </li>
+        <li class="product-list-item">
+          <a href="#/" class="remove">×</a>
+          <a href="#">
+            <img src="assets/img/shop/product-mini/2.webp" width="90" height="110" alt="Image-HasTech">
+            <span class="product-title">Quickiin Mens shoes</span>
+          </a>
+          <span class="product-price">1 × R$20.00</span>
+        </li>
+      </ul>
+      <p class="cart-total"><span>Subtotal:</span><span class="amount">R$89.99</span></p>
+      <a class="btn-theme" data-margin-bottom="10" href="#">Ver Carrinho</a>
+      <a class="btn-theme" href="#">Pagamento</a>
+      <a class="d-block text-end lh-1" href="#"><img src="assets/img/photos/paypal.webp" width="133" height="26" alt="Has-image"></a>
+    </div>
+  </div>
+  <!--== End Aside Cart Menu ==-->
+
+  <!--== Start Aside Search Menu ==-->
+  <aside class="aside-search-box-wrapper offcanvas offcanvas-top" tabindex="-1" id="AsideOffcanvasSearch" aria-labelledby="offcanvasTopLabel">
+    <div class="offcanvas-header">
+      <h5 class="d-none" id="offcanvasTopLabel">Aside Search</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="pe-7s-close"></i></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="container pt--0 pb--0">
+        <div class="search-box-form-wrap">
+          <div class="search-note">
+            <p>Start typing and press Enter to search</p>
+          </div>
+          <form action="#" method="post">
+            <div class="search-form position-relative">
+              <label for="search-input" class="visually-hidden">Search</label>
+              <input id="search-input" type="search" class="form-control" placeholder="Search entire store…">
+              <button class="search-button"><i class="fa fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <!--== End Aside Search Menu ==-->
+
+  <!--== Start Side Menu ==-->
+  <div class="off-canvas-wrapper offcanvas offcanvas-start" tabindex="-1" id="AsideOffcanvasMenu" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h1 id="offcanvasExampleLabel"></h1>
+      <button class="btn-menu-close" data-bs-dismiss="offcanvas" aria-label="Close">menu <i class="fa fa-chevron-left"></i></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="info-items">
+        <ul>
+          <li class="number"><a href="tel://0123456789"><i class="fa fa-phone"></i>+00 123 456 789</a></li>
+          <li class="email"><a href="mailto://demo@example.com"><i class="fa fa-envelope"></i>octopus@gmail.com</a></li>
+          <li class="account"><a href="#"><i class="fa fa-user"></i>Conta</a></li>
+        </ul>
+      </div>
+      <!-- Mobile Menu Start -->
+      <div class="mobile-menu-items">
+        <ul class="nav-menu">
+          <li><a href="#">Home</a>
+          </li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Pages</a>
+            <ul class="sub-menu">
+              <li><a href="#">Conta</a></li>
+              <li><a href="#">Logar</a></li>
+              <li><a href="#">Resgistro</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Loja</a>
+            <ul class="sub-menu">
+              <li><a href="#">Produtos</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Sneakers</a></li>
+                  <li><a href="#">Tenis Casual</a></li>
+                  <li><a href="#">Jaquetas de Inverno</a></li>
+                  <li><a href="#">Conjuntos</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Outras Páginas</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Carrinho</a></li>
+                  <li><a href="#">Pagamento</a></li>
+                  <li><a href="#">Favoritos</a></li>
+                  <li><a href="#">Compare</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+      <!-- Mobile Menu End -->
+    </div>
+  </div>
+  <!--== End Side Menu ==-->
+
+</div>
+
+<!--=======================Javascript============================-->
+
+<!--=== jQuery Modernizr Min Js ===-->
+<script src="assets/js/modernizr.js"></script>
+<!--=== jQuery Min Js ===-->
+<script src="assets/js/jquery-main.js"></script>
+<!--=== jQuery Migration Min Js ===-->
+<script src="assets/js/jquery-migrate.js"></script>
+<!--=== jQuery Popper Min Js ===-->
+<script src="assets/js/popper.min.js"></script>
+<!--=== jQuery Bootstrap Min Js ===-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!--=== jQuery Ui Min Js ===-->
+<script src="assets/js/jquery-ui.min.js"></script>
+<!--=== jQuery Swiper Min Js ===-->
+<script src="assets/js/swiper.min.js"></script>
+<!--=== jQuery Fancybox Min Js ===-->
+<script src="assets/js/fancybox.min.js"></script>
+<!--=== jQuery Waypoint Js ===-->
+<script src="assets/js/waypoint.js"></script>
+<!--=== jQuery Parallax Min Js ===-->
+<script src="assets/js/parallax.min.js"></script>
+<!--=== jQuery Aos Min Js ===-->
+<script src="assets/js/aos.min.js"></script>
+
+<!--=== jQuery Custom Js ===-->
+<script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
